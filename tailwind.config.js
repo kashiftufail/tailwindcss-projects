@@ -1,16 +1,15 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ['./*html'],
   theme: {
-    fontFamily:{
+    fontFamily: {
       sans: ['Open Sans'],
     },
     extend: {
-      backgroundImage:{
-        'hero-pattern':"url('../images/sun-tornado.svg')"
-      }
+      backgroundImage: {
+        'hero-pattern': "url('../images/sun-tornado.svg')",
+      },
     },
   },
-  plugins: [],
 }
-
